@@ -18,8 +18,8 @@ to the summed scalar `reward`). NeMo-RL's NeMo Gym bridge exposes them as
 `reward` and therefore cannot distinguish responses with the same total but different
 composition — the advantage collapse GDPO is designed to fix.
 
-The example data can be found in `tool_call_multireward/data/example.jsonl` and is
-regenerated with `python resources_servers/tool_call_multireward/create_examples.py`.
+The example data can be found in `example_tool_call_multireward/data/example.jsonl` and is
+regenerated with `python resources_servers/example_tool_call_multireward/create_examples.py`.
 
 # Licensing information
 Code: Apache 2.0

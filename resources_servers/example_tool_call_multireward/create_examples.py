@@ -71,5 +71,5 @@ for query, city in queries:
     example_strs.append(json.dumps(row) + "\n")
 
 
-with open("resources_servers/tool_call_multireward/data/example.jsonl", "w") as f:
+with open("resources_servers/example_tool_call_multireward/data/example.jsonl", "w") as f:
     f.writelines(example_strs)
