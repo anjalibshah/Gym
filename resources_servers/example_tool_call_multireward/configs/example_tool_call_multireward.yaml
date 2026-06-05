@@ -5,6 +5,7 @@ example_tool_call_multireward:
       domain: agent
       verified: false
       description: Single tool call scored on decoupled correctness / schema_valid / format rewards (multi-reward, for GDPO)
+      value: Reference pattern for multi-reward (GDPO) agentic RL with decoupled per-objective rewards
 example_tool_call_multireward_simple_agent:
   responses_api_agents:
     simple_agent:
